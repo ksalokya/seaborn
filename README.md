@@ -613,7 +613,7 @@ sns.pairplot(tips)
     
 
 
-# Corelation
+# Correlation
 
 
 ```python
