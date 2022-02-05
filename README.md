@@ -28,20 +28,6 @@ titanic
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -265,7 +251,6 @@ titanic
   </tbody>
 </table>
 <p>891 rows × 15 columns</p>
-</div>
 
 
 
@@ -278,20 +263,6 @@ titanic.head(3)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -370,7 +341,6 @@ titanic.head(3)
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -383,20 +353,6 @@ titanic.tail(3)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -475,7 +431,6 @@ titanic.tail(3)
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -495,7 +450,7 @@ sns.barplot(x='sex',y='fare',data=titanic)
 
 
     
-![png](output_9_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_9_1.png)
     
 
 
@@ -515,7 +470,7 @@ sns.countplot(x='sex',data=titanic)
 
 
     
-![png](output_11_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_11_1.png)
     
 
 
@@ -535,7 +490,7 @@ sns.boxplot(x='sex', y='fare', data=titanic)
 
 
     
-![png](output_13_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_13_1.png)
     
 
 
@@ -553,7 +508,7 @@ sns.boxplot(x='sex', y='fare', data=titanic, hue='survived')
 
 
     
-![png](output_14_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_14_1.png)
     
 
 
@@ -573,7 +528,7 @@ sns.violinplot(x='sex', y='fare',data=titanic)
 
 
     
-![png](output_16_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_16_1.png)
     
 
 
@@ -593,7 +548,7 @@ sns.displot(titanic['fare'],kde='True')
 
 
     
-![png](output_18_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_18_1.png)
     
 
 
@@ -613,7 +568,7 @@ sns.kdeplot(titanic['fare'])
 
 
     
-![png](output_20_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_20_1.png)
     
 
 
@@ -633,7 +588,7 @@ sns.jointplot(x='fare',y='age',data=titanic,kind='reg')
 
 
     
-![png](output_22_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_22_1.png)
     
 
 
@@ -654,7 +609,7 @@ sns.pairplot(tips)
 
 
     
-![png](output_24_1.png)
+![png](https://github.com/ksalokya/seaborn/blob/main/assets/output_24_1.png)
     
 
 
@@ -668,20 +623,6 @@ titanic.corr()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -787,7 +728,6 @@ titanic.corr()
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
