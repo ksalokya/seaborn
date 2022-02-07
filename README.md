@@ -729,5 +729,6 @@ titanic.corr()
   </tbody>
 </table>
 
-
+## Tutorial
+[Seaborn Tutorial](https://youtu.be/6GUZXDef2U0)
 
